@@ -1,0 +1,14 @@
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/ConsoleTesting.deps.json
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/ConsoleTesting.runtimeconfig.json
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/ConsoleTesting.runtimeconfig.dev.json
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/ConsoleTesting.dll
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/ConsoleTesting.pdb
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/Eventos.IO.Domain.Core.dll
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/Eventos.IO.Domain.dll
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/Eventos.IO.Domain.pdb
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/bin/Debug/netcoreapp2.0/Eventos.IO.Domain.Core.pdb
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/Debug/netcoreapp2.0/ConsoleTesting.csproj.CoreCompileInputs.cache
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/Debug/netcoreapp2.0/ConsoleTesting.AssemblyInfoInputs.cache
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/Debug/netcoreapp2.0/ConsoleTesting.AssemblyInfo.cs
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/Debug/netcoreapp2.0/ConsoleTesting.dll
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/Debug/netcoreapp2.0/ConsoleTesting.pdb

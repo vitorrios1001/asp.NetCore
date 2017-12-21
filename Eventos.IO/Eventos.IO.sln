@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{184E41D6-B8C8-4EC6-9ECF-F9A8E5958A31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{4E97C08D-7F63-4C46-8115-CFD86B211B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{32E4361D-083B-488B-A0FD-3DDFD727CD00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{EBF7BBA3-157D-4572-B0F1-B53DD7F83A2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{23388CF7-33FA-4F6F-A256-6F0DF2D05B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{A9541DFA-C84A-466E-B658-B738E28F593E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{80F3AB45-16D8-426D-BBE1-6586192D7C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos.IO.Domain", "src\Eventos.IO.Domain\Eventos.IO.Domain.csproj", "{10AAD4CD-C67A-4EC9-808B-F2F7B828852C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos.IO.Domain.Core", "src\Eventos.IO.Domain.Core\Eventos.IO.Domain.Core.csproj", "{9CFB235E-2722-4939-8E40-BB1F68DE8E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTesting", "src\ConsoleTesting\ConsoleTesting.csproj", "{266CD83F-4438-4953-AC31-D59D057D08B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9541DFA-C84A-466E-B658-B738E28F593E} = {23388CF7-33FA-4F6F-A256-6F0DF2D05B66}
+		{80F3AB45-16D8-426D-BBE1-6586192D7C5F} = {23388CF7-33FA-4F6F-A256-6F0DF2D05B66}
+		{10AAD4CD-C67A-4EC9-808B-F2F7B828852C} = {EBF7BBA3-157D-4572-B0F1-B53DD7F83A2C}
+		{9CFB235E-2722-4939-8E40-BB1F68DE8E8F} = {EBF7BBA3-157D-4572-B0F1-B53DD7F83A2C}
+		{266CD83F-4438-4953-AC31-D59D057D08B0} = {EBF7BBA3-157D-4572-B0F1-B53DD7F83A2C}
+	EndGlobalSection
+EndGlobal

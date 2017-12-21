@@ -1,0 +1,37 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/ConsoleTesting.csproj",
+    "projectName": "ConsoleTesting",
+    "projectPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/ConsoleTesting.csproj",
+    "outputPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj": {
+            "projectPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

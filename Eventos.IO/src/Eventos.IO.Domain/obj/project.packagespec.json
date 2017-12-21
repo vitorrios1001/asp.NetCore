@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj",
+    "projectName": "Eventos.IO.Domain",
+    "projectPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj",
+    "outputPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/Eventos.IO.Domain.Core.csproj": {
+            "projectPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/Eventos.IO.Domain.Core.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "2.0.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

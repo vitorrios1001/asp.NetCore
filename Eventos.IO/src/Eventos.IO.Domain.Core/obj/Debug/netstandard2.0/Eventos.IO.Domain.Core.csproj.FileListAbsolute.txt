@@ -1,0 +1,8 @@
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/bin/Debug/netstandard2.0/Eventos.IO.Domain.Core.deps.json
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/bin/Debug/netstandard2.0/Eventos.IO.Domain.Core.dll
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/bin/Debug/netstandard2.0/Eventos.IO.Domain.Core.pdb
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/obj/Debug/netstandard2.0/Eventos.IO.Domain.Core.csproj.CoreCompileInputs.cache
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/obj/Debug/netstandard2.0/Eventos.IO.Domain.Core.AssemblyInfoInputs.cache
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/obj/Debug/netstandard2.0/Eventos.IO.Domain.Core.AssemblyInfo.cs
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/obj/Debug/netstandard2.0/Eventos.IO.Domain.Core.dll
+/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain.Core/obj/Debug/netstandard2.0/Eventos.IO.Domain.Core.pdb
