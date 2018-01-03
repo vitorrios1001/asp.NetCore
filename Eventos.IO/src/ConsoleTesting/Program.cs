@@ -1,5 +1,5 @@
 ﻿using System;
-using Eventos.IO.Domain.Models;
+using Eventos.IO.Domain.Eventos;
 namespace ConsoleTesting
 {
     class Program
@@ -7,19 +7,28 @@ namespace ConsoleTesting
         static void Main(string[] args)
         {
             var evento = new EventoModel(
-                "Nome evento",
+                "",
                 DateTime.Now,
                 DateTime.Now,
-                false,
-                200,
                 true,
-                "Vitor Rios");
-
-            var evento2 = evento;
+                200,
+                false,
+                "");
+                
             
             
             Console.WriteLine(evento.ToString());
-            Console.WriteLine(evento.Equals(evento2));
+
+            Console.WriteLine(evento.EhValido());
+
+            if (!evento.ValidationResult.IsValid)
+            {
+                foreach(var erro in evento.ValidationResult.Errors)
+                {
+                    Console.WriteLine(erro.ErrorMessage);
+                }
+            }
+
             Console.ReadKey();
 
         }

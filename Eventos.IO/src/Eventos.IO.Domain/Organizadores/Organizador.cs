@@ -1,4 +1,4 @@
-﻿namespace Eventos.IO.Domain.Models
+﻿namespace Eventos.IO.Domain.Organizadores
 {
     public class Organizador
     {

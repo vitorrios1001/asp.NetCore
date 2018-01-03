@@ -8,3 +8,14 @@
 /home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/obj/Debug/netstandard2.0/Eventos.IO.Domain.AssemblyInfo.cs
 /home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/obj/Debug/netstandard2.0/Eventos.IO.Domain.dll
 /home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/obj/Debug/netstandard2.0/Eventos.IO.Domain.pdb
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\bin\Debug\netstandard2.0\Eventos.IO.Domain.deps.json
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\bin\Debug\netstandard2.0\Eventos.IO.Domain.dll
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\bin\Debug\netstandard2.0\Eventos.IO.Domain.pdb
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.dll
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\bin\Debug\netstandard2.0\Eventos.IO.Domain.Core.pdb
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\obj\Debug\netstandard2.0\Eventos.IO.Domain.csprojResolveAssemblyReference.cache
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\obj\Debug\netstandard2.0\Eventos.IO.Domain.csproj.CoreCompileInputs.cache
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\obj\Debug\netstandard2.0\Eventos.IO.Domain.AssemblyInfoInputs.cache
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\obj\Debug\netstandard2.0\Eventos.IO.Domain.AssemblyInfo.cs
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\obj\Debug\netstandard2.0\Eventos.IO.Domain.dll
+C:\gitProjetos\asp.NetCore\Eventos.IO\src\Eventos.IO.Domain\obj\Debug\netstandard2.0\Eventos.IO.Domain.pdb

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "FluentValidation/7.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -201,7 +210,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Eventos.IO.Domain.Core": "1.0.0"
+          "Eventos.IO.Domain.Core": "1.0.0",
+          "FluentValidation": "7.3.4"
         },
         "compile": {
           "bin/placeholder/Eventos.IO.Domain.dll": {}
@@ -213,6 +223,9 @@
       "Eventos.IO.Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidation": "7.3.4"
+        },
         "compile": {
           "bin/placeholder/Eventos.IO.Domain.Core.dll": {}
         },
@@ -223,6 +236,21 @@
     }
   },
   "libraries": {
+    "FluentValidation/7.3.4": {
+      "sha512": "UMiYkJbHtGRTCFTmJdbmfJwRhJ/ENFeGZPkJS7WuZQmJV2PZ0glRXr4LZr40+OgwaJVi67Cy1DzR8uG+hVuvmA==",
+      "type": "package",
+      "path": "fluentvalidation/7.3.4",
+      "files": [
+        "fluentvalidation.7.3.4.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.0/FluentValidation.dll",
+        "lib/netstandard1.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
     "Microsoft.NETCore.App/2.0.0": {
       "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
       "type": "package",
@@ -698,35 +726,40 @@
     ]
   },
   "packageFolders": {
-    "/home/vitor/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\vitor\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/ConsoleTesting.csproj",
+      "projectUniqueName": "C:\\gitProjetos\\asp.NetCore\\Eventos.IO\\src\\ConsoleTesting\\ConsoleTesting.csproj",
       "projectName": "ConsoleTesting",
-      "projectPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/ConsoleTesting.csproj",
-      "packagesPath": "/home/vitor/.nuget/packages/",
-      "outputPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/ConsoleTesting/obj/",
+      "projectPath": "C:\\gitProjetos\\asp.NetCore\\Eventos.IO\\src\\ConsoleTesting\\ConsoleTesting.csproj",
+      "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+      "outputPath": "C:\\gitProjetos\\asp.NetCore\\Eventos.IO\\src\\ConsoleTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/vitor/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj": {
-              "projectPath": "/home/vitor/projetosDosGit/asp.NetCore/Eventos.IO/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj"
+            "C:\\gitProjetos\\asp.NetCore\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+              "projectPath": "C:\\gitProjetos\\asp.NetCore\\Eventos.IO\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
             }
           }
         }
@@ -742,7 +775,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },
