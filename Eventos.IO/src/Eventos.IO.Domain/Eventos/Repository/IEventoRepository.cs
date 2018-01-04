@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Eventos.IO.Domain.Eventos.Repository
 {
-    interface IEventoRepository : IRepository<EventoModel>
+    public interface IEventoRepository : IRepository<EventoModel>
     {
-
 
     }
 }

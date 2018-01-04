@@ -1,6 +1,6 @@
 ﻿namespace Eventos.IO.Domain.Eventos
 {
-    public class Tags
+    public class TagsModel
     {
         
     }

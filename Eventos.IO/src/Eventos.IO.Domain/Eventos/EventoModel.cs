@@ -28,6 +28,8 @@ namespace Eventos.IO.Domain.Eventos
             NomeEmpresa = nomeEmpresa;
 
         }
+
+        private EventoModel() { }
         
 
         public string Nome { get; private set; }
@@ -48,13 +50,13 @@ namespace Eventos.IO.Domain.Eventos
 
         public string NomeEmpresa { get; private set; }
     
-        public Categoria Categoria { get; private set; }
+        public CategoriaModel Categoria { get; private set; }
 
-        public ICollection<Tags> Tags { get; private set; }
+        public ICollection<TagsModel> Tags { get; private set; }
 
-        public Endereco Endereco { get; private set; }
+        public EnderecoModel Endereco { get; private set; }
 
-        public Organizador Organizador { get; private set; }
+        public OrganizadorModel Organizador { get; private set; }
 
         public override bool EhValido()
         {
@@ -129,5 +131,42 @@ namespace Eventos.IO.Domain.Eventos
 
 
         #endregion
+
+        public static class EventoFactory
+        {
+            public static EventoModel NovoEventoCompleto(Guid id,
+                                                         string nome,
+                                                         string descCurta,
+                                                         string descLonga,
+                                                         DateTime dataInicio,
+                                                         DateTime dataFim,
+                                                         bool gratuito,
+                                                         decimal valor,
+                                                         bool online,
+                                                         string nomeEmpresa,
+                                                         Guid? organizadorId)
+            {
+                var evento = new EventoModel()
+                {
+                    Id = Guid.NewGuid(),
+                    Nome = nome,
+                    DescricaoCurta = descCurta,
+                    DescricaoLonga = descLonga,
+                    DataInicio = dataInicio,
+                    DataFim = dataFim,
+                    Gratuito = gratuito,
+                    Valor = valor,
+                    Online = online,
+                    NomeEmpresa = nomeEmpresa
+                };
+
+                if (organizadorId != null)
+                    evento.Organizador = new OrganizadorModel(organizadorId.Value);
+
+                return evento;
+            }
+
+        }
+
     }
 }

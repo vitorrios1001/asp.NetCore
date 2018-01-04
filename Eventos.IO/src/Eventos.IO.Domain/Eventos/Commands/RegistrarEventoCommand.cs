@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Eventos.IO.Domain.Eventos.Commands
 {
-    class RegistrarEventoCommand : BaseEventoCommand
+    public class RegistrarEventoCommand : BaseEventoCommand
     {
         public RegistrarEventoCommand(
             string nome,
